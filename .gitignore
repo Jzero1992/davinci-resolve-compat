@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+*.app/
+*.dmg
+*.drp
+*.dra/
+*.report.json
+.env
+.env.*
+output/
+backups/
+distribution/runtime-source/
+distribution/build-deps/
+distribution/releases/

@@ -1,0 +1,2 @@
+# DMG authoring only; the conversion engine uses the Python standard library.
+dmgbuild==1.6.7
