@@ -1,6 +1,6 @@
-# 达芬奇工程兼容工具 · Resolve Compat
+# DaVinci Resolve Compat · 达芬奇工程兼容工具
 
-<img src="gui/assets/AppIcon-v2.png" width="112" alt="Resolve Compat icon">
+<img src="gui/assets/AppIcon-v2.png" width="112" alt="DaVinci Resolve Compat icon">
 
 尝试让较新版 DaVinci Resolve 工程在旧版中打开的本地工具，提供中文 macOS 界面与 Python 命令行。
 
@@ -97,4 +97,4 @@ Copyright © 2026 Jzero. 原创源码采用 [MIT License](LICENSE)。第三方�
 
 ---
 
-**English:** Resolve Compat is an unofficial local utility that patches DaVinci Resolve project version metadata. It supports 21→20 and 20→19, with an unverified experimental 21→19 option. It does not migrate schemas or guarantee feature/visual compatibility. The GUI targets Apple Silicon Macs and bundles Python. A standard-library-only Python CLI is also included. Licensed under MIT, copyright © 2026 Jzero.
+**English:** DaVinci Resolve Compat is an unofficial local utility that patches DaVinci Resolve project version metadata. It supports 21→20 and 20→19, with an unverified experimental 21→19 option. It does not migrate schemas or guarantee feature/visual compatibility. The GUI targets Apple Silicon Macs and bundles Python. A standard-library-only Python CLI is also included. Licensed under MIT, copyright © 2026 Jzero.
