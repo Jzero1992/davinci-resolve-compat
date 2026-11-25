@@ -1,4 +1,4 @@
-达芬奇工程兼容工具 1.3.3 · 内置运行环境版
+达芬奇工程兼容工具 1.4.0 · 内置运行环境版
 
 适用：Apple 芯片 Mac（M1/M2/M3/M4及后续arm64机型），macOS 12或以上。
 不适用：Intel Mac、Windows。
@@ -29,3 +29,5 @@ Apple操作说明：https://support.apple.com/zh-cn/102445
 分享
 把整个DMG发给对方即可，不要单独发送App内部的可执行文件。
 Python开源许可和运行环境来源保存在App/Contents/Resources/runtime与来源说明中。
+
+语言切换：在菜单栏选择“语言 → English / 简体中文”。

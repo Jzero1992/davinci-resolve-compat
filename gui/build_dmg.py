@@ -19,19 +19,19 @@ def customize(event):
 
 out = root/'distribution/releases'
 out.mkdir(exist_ok=True)
-filename = out/'达芬奇工程兼容工具-1.3.3-Apple芯片-内置运行环境.dmg'
+filename = out/'达芬奇工程兼容工具-1.4.0-Apple芯片-内置运行环境.dmg'
 if filename.exists():
     raise SystemExit('DMG already exists; choose a new release filename.')
-dmgbuild.build_dmg(str(filename), '达芬奇工程兼容工具 1.3.3', callback=customize, settings={
+dmgbuild.build_dmg(str(filename), '达芬奇工程兼容工具 1.4.0', callback=customize, settings={
     'create_hook': capture_mount,
     'format': 'UDZO',
-    'files': [str(root/'达芬奇工程兼容工具.app'), str(root/'distribution/首次打开说明.txt')],
+    'files': [str(root/'达芬奇工程兼容工具.app'), str(root/'distribution/首次打开说明.txt'), str(root/'distribution/Getting Started.txt')],
     'symlinks': {'应用程序': '/Applications'},
     'background': '#202020',
     'window_rect': ((180, 150), (820, 560)),
-    'icon_size': 96,
+    'icon_size': 64,
     'text_size': 13,
-    'icon_locations': {'达芬奇工程兼容工具.app': (220, 220), '应用程序': (600, 220), '首次打开说明.txt': (712, 446)},
+    'icon_locations': {'达芬奇工程兼容工具.app': (220, 220), '应用程序': (600, 220), '首次打开说明.txt': (712, 420), 'Getting Started.txt': (712, 520)},
     'default_view': 'icon-view',
     'include_icon_view_settings': True,
     'include_list_view_settings': False,

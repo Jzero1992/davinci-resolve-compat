@@ -1,5 +1,7 @@
 # DaVinci Resolve Compat · 达芬奇工程兼容工具
 
+简体中文 | [English](README.en.md)
+
 <img src="gui/assets/AppIcon-v2.png" width="112" alt="DaVinci Resolve Compat icon">
 
 尝试让较新版 DaVinci Resolve 工程在旧版中打开的本地工具，提供中文 macOS 界面与 Python 命令行。
@@ -14,6 +16,8 @@
 - 已内置 Python，使用者无需另装 Python、Xcode 或命令行工具。
 - 打开 DMG，把 App 拖入“应用程序”。DMG 提供首次打开被系统拦截时的提示。
 - 发行版为本地临时签名，尚未经过 Apple Developer ID 签名和公证。
+
+通过菜单栏的 **语言 / Language** 切换简体中文和英文，应用会记住选择。
 
 选择或拖入 `.drp` / `.dra`，选择自动识别或目标版本，点击“生成兼容副本”。副本默认位于原工程旁，可更改位置；GUI 对同名文件自动编号。
 
@@ -94,7 +98,3 @@ python3 -m venv .venv
 Copyright © 2026 Jzero. 原创源码采用 [MIT License](LICENSE)。第三方组件保留各自许可证，见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
 本工具是独立社区项目，与 Blackmagic Design 没有隶属关系。DaVinci Resolve 等商标归各自权利人所有。
-
----
-
-**English:** DaVinci Resolve Compat is an unofficial local utility that patches DaVinci Resolve project version metadata. It supports 21→20 and 20→19, with an unverified experimental 21→19 option. It does not migrate schemas or guarantee feature/visual compatibility. The GUI targets Apple Silicon Macs and bundles Python. A standard-library-only Python CLI is also included. Licensed under MIT, copyright © 2026 Jzero.

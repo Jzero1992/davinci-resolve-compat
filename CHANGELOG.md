@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.4.0
+
+- Switch between English and Simplified Chinese from the app menu.
+- Added English documentation and bilingual first-launch instructions in the DMG.
+
 ## 1.3.3
 
 Initial public source release of the existing desktop tool.
