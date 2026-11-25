@@ -8,7 +8,7 @@
 
 ## 下载与使用
 
-在 [Releases](https://github.com/Jzero1992/resolve-compat/releases) 下载 DMG。
+在 [Releases](https://github.com/Jzero1992/davinci-resolve-compat/releases) 下载 DMG。
 
 - 图形界面发行版：**Apple 芯片 Mac，macOS 12 及以上**；不支持 Intel Mac 或 Windows GUI。
 - 已内置 Python，使用者无需另装 Python、Xcode 或命令行工具。
@@ -62,8 +62,8 @@ python3 -m unittest discover -v
 需要 Apple 芯片 Mac、Xcode / Apple Swift 编译器、构建机上的 Python 3 和网络连接。这些要求只适用于构建者。
 
 ```sh
-git clone https://github.com/Jzero1992/resolve-compat.git
-cd resolve-compat
+git clone https://github.com/Jzero1992/davinci-resolve-compat.git
+cd davinci-resolve-compat
 ./gui/build.sh
 ```
 
