@@ -10,7 +10,7 @@ xcrun swiftc -target arm64-apple-macos12.0 gui/main.swift -o "$app/Contents/MacO
 /usr/bin/python3 - <<'PY'
 import plistlib
 p='达芬奇工程兼容工具.app/Contents/Info.plist'
-d={'CFBundleName':'达芬奇工程兼容工具','CFBundleDisplayName':'达芬奇工程兼容工具','CFBundleIdentifier':'local.jzero.resolve-compat','CFBundleIconFile':'AppIcon','CFBundleVersion':'9','CFBundleShortVersionString':'1.4.0','CFBundleExecutable':'ResolveCompat','CFBundlePackageType':'APPL','LSMinimumSystemVersion':'12.0','NSHighResolutionCapable':True,'CFBundleDocumentTypes':[{'CFBundleTypeName':'DaVinci Resolve Project','CFBundleTypeRole':'Viewer','LSHandlerRank':'Alternate','CFBundleTypeExtensions':['drp','dra']}],'NSHumanReadableCopyright':'Copyright © 2026 Jzero. All rights reserved.'}
+d={'CFBundleName':'达芬奇工程兼容工具','CFBundleDisplayName':'达芬奇工程兼容工具','CFBundleIdentifier':'local.jzero.resolve-compat','CFBundleIconFile':'AppIcon','CFBundleVersion':'10','CFBundleShortVersionString':'1.4.1','CFBundleExecutable':'ResolveCompat','CFBundlePackageType':'APPL','LSMinimumSystemVersion':'12.0','NSHighResolutionCapable':True,'CFBundleDocumentTypes':[{'CFBundleTypeName':'DaVinci Resolve Project','CFBundleTypeRole':'Viewer','LSHandlerRank':'Alternate','CFBundleTypeExtensions':['drp','dra']}],'NSHumanReadableCopyright':'Copyright © 2026 J.zero. All rights reserved.'}
 with open(p,'wb') as f:plistlib.dump(d,f)
 PY
 /usr/bin/python3 gui/bundle_runtime.py

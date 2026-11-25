@@ -55,4 +55,4 @@ Find the DMG in `distribution/releases/`.
 
 ## License
 
-Copyright © 2026 Jzero. The original code is available under the [MIT License](LICENSE). See [third-party notices](THIRD_PARTY_NOTICES.md) for bundled components and trademarks. This is an independent project and has no affiliation with Blackmagic Design.
+Copyright © 2026 J.zero. The original code is available under the [MIT License](LICENSE). See [third-party notices](THIRD_PARTY_NOTICES.md) for bundled components and trademarks. This is an independent project and has no affiliation with Blackmagic Design.

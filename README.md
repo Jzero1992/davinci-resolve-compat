@@ -95,6 +95,6 @@ python3 -m venv .venv
 
 ## 许可证
 
-Copyright © 2026 Jzero. 原创源码采用 [MIT License](LICENSE)。第三方组件保留各自许可证，见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+Copyright © 2026 J.zero. 原创源码采用 [MIT License](LICENSE)。第三方组件保留各自许可证，见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
 本工具是独立社区项目，与 Blackmagic Design 没有隶属关系。DaVinci Resolve 等商标归各自权利人所有。

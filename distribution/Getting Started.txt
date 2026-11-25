@@ -1,4 +1,4 @@
-DaVinci Resolve Compat 1.4.0
+DaVinci Resolve Compat 1.4.1
 
 Requires an Apple silicon Mac running macOS 12 or later.
 Python is included.
@@ -15,4 +15,4 @@ The app patches project version markers. Check the generated copy in
 Resolve before relying on it. For archived media, relink MediaFiles
 from the original archive if necessary.
 
-Copyright © 2026 Jzero.
+Copyright © 2026 J.zero.

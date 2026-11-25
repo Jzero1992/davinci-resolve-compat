@@ -1,6 +1,6 @@
 # Third-party notices
 
-This repository's original source code and artwork are copyright © 2026 Jzero and licensed under MIT. The licenses of redistributed third-party software remain applicable to those components.
+This repository's original source code and artwork are copyright © 2026 J.zero and licensed under MIT. The licenses of redistributed third-party software remain applicable to those components.
 
 - **Python Build Standalone / CPython**: macOS distributions bundle a pinned Python 3.12.16 runtime from [Astral's Python Build Standalone](https://github.com/astral-sh/python-build-standalone/releases/tag/20261026). The runtime archive is not stored in this repository. Builds verify its SHA256 before extracting it. Runtime license files are retained inside the application, including `Contents/Resources/runtime/lib/python3.12/LICENSE.txt` and `runtime/share/`. See [upstream licensing](https://github.com/astral-sh/python-build-standalone/blob/main/docs/distributions.md).
 - **dmgbuild, ds_store, mac_alias**: development/build dependencies used to construct disk images. They are not embedded in the application. Their license metadata is supplied by their respective Python packages.

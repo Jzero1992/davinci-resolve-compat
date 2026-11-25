@@ -135,8 +135,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? ""
         alert.messageText = tr("达芬奇工程兼容工具", "DaVinci Resolve Compat") + " " + version
         alert.informativeText = tr(
-            "本地转换，保留原工程。工具仅修改版本标记。\n\n版权所有 © 2026 Jzero。保留所有权利。",
-            "Local conversion preserves the original project. The tool patches version markers.\n\nCopyright © 2026 Jzero. All rights reserved."
+            "本地转换，保留原工程。工具仅修改版本标记。\n\n版权所有 © 2026 J.zero。保留所有权利。",
+            "Local conversion preserves the original project. The tool patches version markers.\n\nCopyright © 2026 J.zero. All rights reserved."
         )
         alert.runModal()
     }

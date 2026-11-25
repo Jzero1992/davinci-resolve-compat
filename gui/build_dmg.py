@@ -19,10 +19,10 @@ def customize(event):
 
 out = root/'distribution/releases'
 out.mkdir(exist_ok=True)
-filename = out/'达芬奇工程兼容工具-1.4.0-Apple芯片-内置运行环境.dmg'
+filename = out/'达芬奇工程兼容工具-1.4.1-Apple芯片-内置运行环境.dmg'
 if filename.exists():
     raise SystemExit('DMG already exists; choose a new release filename.')
-dmgbuild.build_dmg(str(filename), '达芬奇工程兼容工具 1.4.0', callback=customize, settings={
+dmgbuild.build_dmg(str(filename), '达芬奇工程兼容工具 1.4.1', callback=customize, settings={
     'create_hook': capture_mount,
     'format': 'UDZO',
     'files': [str(root/'达芬奇工程兼容工具.app'), str(root/'distribution/首次打开说明.txt'), str(root/'distribution/Getting Started.txt')],
